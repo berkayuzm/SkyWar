@@ -274,7 +274,7 @@ function gameLoop(){
                 ctx.fillStyle = "red";
             ctx.font = "40px Arial";
             ctx.fillText("Merkezin işgal edildi!", 0, 100);
-            
+            ctx.fillText("GAME OVER!", 0, 100);
             ctx.fillText("Yeniden başlamak için sayfayı yenile!", 0, 200);
             ctx.fillText("Puanın="+score, 0, 250);
           
